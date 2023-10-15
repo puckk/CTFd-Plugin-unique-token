@@ -1,0 +1,25 @@
+{
+  "projectName": "CTFd-Plugin-unique-token",
+  "projectOwner": "puckk",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "mateodurante",
+      "name": "Mateo Durante",
+      "avatar_url": "https://avatars.githubusercontent.com/u/668847?v=4",
+      "profile": "https://www.linkedin.com/profile/view?id=222003500",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": false
+}

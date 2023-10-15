@@ -1,4 +1,7 @@
 ![Python versions](https://img.shields.io/badge/python-3.9-blue.svg)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
 
@@ -56,3 +59,25 @@ def request_to_ctfd(url, admin_ctfd_token, user_unique_token, challenge_name):
 
 Contributions are welcome. Please create an issue or pull request if you find a bug or wish to add a new feature.
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/profile/view?id=222003500"><img src="https://avatars.githubusercontent.com/u/668847?v=4?s=100" width="100px;" alt="Mateo Durante"/><br /><sub><b>Mateo Durante</b></sub></a><br /><a href="https://github.com/puckk/CTFd-Plugin-unique-token/commits?author=mateodurante" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
