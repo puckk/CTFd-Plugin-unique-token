@@ -56,4 +56,3 @@ def request_to_ctfd(url, admin_ctfd_token, user_unique_token, challenge_name):
 
 Contributions are welcome. Please create an issue or pull request if you find a bug or wish to add a new feature.
 
-
