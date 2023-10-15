@@ -1,6 +1,6 @@
 ![Python versions](https://img.shields.io/badge/python-3.9-blue.svg)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -71,6 +71,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://www.linkedin.com/profile/view?id=222003500"><img src="https://avatars.githubusercontent.com/u/668847?v=4?s=100" width="100px;" alt="Mateo Durante"/><br /><sub><b>Mateo Durante</b></sub></a><br /><a href="https://github.com/puckk/CTFd-Plugin-unique-token/commits?author=mateodurante" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/puckk"><img src="https://avatars.githubusercontent.com/u/18028177?v=4?s=100" width="100px;" alt="Jeremías Pretto"/><br /><sub><b>Jeremías Pretto</b></sub></a><br /><a href="https://github.com/puckk/CTFd-Plugin-unique-token/commits?author=puckk" title="Code">💻</a> <a href="https://github.com/puckk/CTFd-Plugin-unique-token/commits?author=puckk" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

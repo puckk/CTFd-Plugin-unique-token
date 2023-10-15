@@ -18,6 +18,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "puckk",
+      "name": "Jeremías Pretto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18028177?v=4",
+      "profile": "https://github.com/puckk",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
