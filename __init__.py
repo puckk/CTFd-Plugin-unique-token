@@ -38,8 +38,9 @@ def validate_and_get_user_id(token):
 
 # Views
 def load(app):
-    register_plugin_asset(app, asset_path="/plugins/unique_token/unique_token.js")
-    register_plugin_script("/plugins/unique_token/unique_token.js")
+    folder_path = os.path.dirname(os.path.realpath(__file__)).split("/")[-1]
+    register_plugin_asset(app, asset_path=f"/plugins/{folder_path}/unique_token.js")
+    register_plugin_script(f"/plugins/{folder_path}/unique_token.js")
 
     token_blueprint = Blueprint(
         "user_token_plugin", __name__, template_folder="templates"
