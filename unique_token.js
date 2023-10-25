@@ -1,24 +1,19 @@
 let unique_token = localStorage.getItem('unique_token');
 
-const invalidTokens = [null, undefined, 'null', '', 'undefined'];
-
-// check if token is valid
-if (window.init.userId !== 0 && invalidTokens.includes(unique_token)) {
-    fetch('/get_user_token').then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json(); 
-    }).then(data => {
-        if (data.status === "success" && data.token) {
-            localStorage.setItem('unique_token', data.token);
-        } else {
-            console.error('Error fetching token:', data.message);
-        }
-    }).catch(error => {
-        console.error('There was a problem fetching the token:', error);
-    });
-}
+fetch('/get_user_token').then(response => {
+    if (!response.ok) {
+        throw new Error('Network response was not ok');
+    }
+    return response.json(); 
+}).then(data => {
+    if (data.status === "success" && data.token) {
+        localStorage.setItem('unique_token', data.token);
+    } else {
+        console.error('Error fetching token:', data.message);
+    }
+}).catch(error => {
+    console.error('There was a problem fetching the token:', error);
+});
 
 // Detect and replace
 function findNodeWithClass(node, className) {
